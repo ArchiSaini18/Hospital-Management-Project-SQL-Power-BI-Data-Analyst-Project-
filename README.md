@@ -1,91 +1,90 @@
-### 🏥 HOSPITAL MANAGEMENT DASHBOARD (Using Power BI & Excel)
+#### 🏥 HOSPITAL MANAGEMENT DASHBOARD (Using SQL, Power BI & Excel)
 
-An interactive and insight-driven hospital dashboard built using Power BI and Excel to monitor patient data, doctor performance, billing insights, and hospital operations—helping improve decision-making and overall healthcare efficiency.
+An interactive and insight-driven hospital analytics dashboard built using SQL, Power BI, and Excel to monitor patient data, doctor performance, billing insights, and hospital operations—enabling smarter, data-driven healthcare decisions.
 
-### 📄 Description:
+#### 📄 Description:
 
-This dashboard provides a complete overview of hospital operations by analyzing patient records, doctor specialization, billing data, and treatment trends.
+This dashboard provides a comprehensive overview of hospital operations by analyzing patient records, doctor specialization, billing data, and treatment trends.
 
-It highlights key metrics like total patients, doctor count, revenue, payments, and pending amounts while allowing users to filter and explore data across multiple dimensions such as location, treatment type, and time.
+SQL was used to extract, transform, and analyze raw hospital data, which was then visualized in Power BI for interactive exploration.
 
-The goal is to simplify complex hospital data into easy-to-understand visuals for better operational and financial decisions.
+The dashboard highlights key metrics such as total patients, doctor count, revenue, payments, and pending amounts while allowing users to filter and explore data across multiple dimensions like location, treatment type, and time.
 
-### 📊 Key Insights & Visuals:-
+### 💻 SQL Analysis & Data Processing:
+
+Structured and executed advanced SQL queries to transform raw hospital data into meaningful business insights, supporting dashboard development and decision-making.
+
+  ### Key Contributions:
+
+- Extracted and aggregated patient data to measure overall patient volume, demographics, and doctor utilization.
+
+- Performed financial analysis by calculating total revenue, collected payments, and outstanding balances to track hospital cash flow.
+
+- Analyzed disease distribution to identify the most common health conditions among patients.
+
+- Evaluated doctor specialization trends to understand resource allocation across departments.
+
+- Conducted state-wise financial analysis to identify high-revenue and high-pending regions.
+
+- Measured operational efficiency by calculating average patient length of stay using date-based SQL functions.
+
+- Processed and cleaned structured datasets using SQL functions like JOIN, GROUP BY, COUNT, SUM, AVG, and date transformations.#### 📊 Key
+
+### Insights & Visuals:-
 
 • 📊 Bar Chart – Doctors by Specialization
-Shows the number of doctors across different departments like Cardiology, Neurology, Pediatrics, etc.
-
 • 🍩 Donut Chart – Payment Mode Distribution
-Breakdown of payments made via UPI, Cash, Card, and Insurance.
-
-• 📈 Line Chart – Disease Trends by Patient ID
-Tracks how different diseases are affecting patients over time.
-
+• 📈 Line Chart – Disease Trends Over Time
 • 📊 Stacked Bar Chart – State-wise Pending Amount
-Displays pending payments across different states to identify high-risk areas.
-
 • 📉 Bar Chart – Average Stay by Admission Reason
-Analyzes how long patients stay based on reasons like Emergency, Surgery, Routine checkups.
 
-### 💳 Key KPI Cards:
+#### 💳 Key KPI Cards:
 
-• 👥 Total Patients – Total number of patients handled.
+• 👥 Total Patients
+• 🧑‍⚕️ Total Doctors
+• 📊 Average Age
+• 💰 Total Revenue
+• ✅ Amount Paid
+• ⏳ Amount Pending
 
-• 🧑‍⚕️ Total Doctors – Total doctors available in the hospital.
+#### 🎛 Interactive Filters:
 
-• 📊 Average Age – Average age of patients.
+• 🏙 State Filter
+• 🏢 City Filter
+• 👨‍⚕️ Doctor Filter
+• 💊 Treatment Filter
+• 📅 Date Filter
 
-• 💰 Total Revenue – Total billing amount generated.
+#### 🌟 Features:-
+#### 📈 Business Impact & Insights:
 
-• ✅ Amount Paid – Payments successfully received.
+• 💰 Revenue Optimization – Identify pending payments and improve cash flow
+• 🧑‍⚕️ Resource Planning – Analyze doctor specialization distribution
+• 🏥 Patient Care Improvement – Understand disease and admission trends
+• 📍 Regional Analysis – Detect high-demand and high-pending regions
+• 📊 Operational Efficiency – Monitor hospital performance in real time
 
-• ⏳ Amount Pending – Outstanding payments to be collected.
+#### 🎯 Goal of the Dashboard:
 
-### 🎛 Interactive Filters:
+To build a powerful and easy-to-use hospital analytics solution that:
 
-• 🏙 State Filter – Analyze data region-wise.
-
-• 🏢 City Filter – Drill down into city-level insights.
-
-• 👨‍⚕️ Doctor Filter – View performance by specific doctors.
-
-• 💊 Treatment Filter – Analyze based on treatment types.
-
-• 📅 Date Filter – Track trends over time.
-
-### 🌟 Features:-
-### 📈 Business Impact & Insights:
-
-• 💰 Revenue Optimization – Identify pending payments and improve cash flow.
-
-• 🧑‍⚕️ Resource Planning – Understand doctor distribution across specializations.
-
-• 🏥 Patient Care Improvement – Analyze admission reasons and stay duration.
-
-• 📍 Regional Analysis – Detect high-demand or high-pending regions.
-
-• 📊 Operational Efficiency – Monitor hospital performance in real time.
-
-### 🎯 Goal of the Dashboard:
-
-To build a powerful and easy-to-use Hospital Analytics Dashboard that:
-
-• Tracks patients, doctors, and financial performance.
-• Identifies trends in diseases and hospital admissions.
-• Highlights pending payments and revenue insights.
-• Supports better hospital management decisions.
+• Tracks patient, doctor, and financial performance
+• Identifies disease and admission trends
+• Highlights revenue insights and pending payments
+• Supports better hospital management decisions
 
 ### 📂 Data Source:
 
-Internal Hospital Dataset (Excel/CSV format)
+Internal Hospital Dataset (CSV/Excel format)
 
 Includes:
-• Patient details (age, disease, admission type).
-• Doctor information (name, specialization).
-• Billing and payment data.
-• Treatment records.
-• Location data (state, city).
+• Patient details (age, disease, admission type)
+• Doctor information (name, specialization)
+• Billing and payment data
+• Treatment records
+• Location data (state, city)
 
 ### 🖼 Screenshot:
 
-Hospital Dashboard (Power BI) → https://github.com/ArchiSaini18/Hospital-Management-Project-SQL-Power-BI-Data-Analyst-Project-/blob/main/Hospital_management_image.png
+Hospital Dashboard →
+https://github.com/ArchiSaini18/Hospital-Management-Project-SQL-Power-BI-Data-Analyst-Project-/blob/main/Hospital_management_image.png
