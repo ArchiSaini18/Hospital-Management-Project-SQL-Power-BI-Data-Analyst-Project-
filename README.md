@@ -4,11 +4,11 @@ An interactive and insight-driven hospital analytics dashboard built using SQL, 
 
 #### 📄 Description:
 
-This dashboard provides a comprehensive overview of hospital operations by analyzing patient records, doctor specialization, billing data, and treatment trends.
+•This dashboard provides a comprehensive overview of hospital operations by analyzing patient records, doctor specialization, billing data, and treatment trends.
 
-SQL was used to extract, transform, and analyze raw hospital data, which was then visualized in Power BI for interactive exploration.
+•SQL was used to extract, transform, and analyze raw hospital data, which was then visualized in Power BI for interactive exploration.
 
-The dashboard highlights key metrics such as total patients, doctor count, revenue, payments, and pending amounts while allowing users to filter and explore data across multiple dimensions like location, treatment type, and time.
+•The dashboard highlights key metrics such as total patients, doctor count, revenue, payments, and pending amounts while allowing users to filter and explore data across multiple dimensions like location, treatment type, and time.
 
 ### 💻 SQL Analysis & Data Processing:
 
